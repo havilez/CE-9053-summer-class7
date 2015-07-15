@@ -1,0 +1,31 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.1",
+    "jade": "^1.11.0",
+    "jasmine-node": "^1.14.5",
+    "mongoose": "^4.0.6",
+    "nodemon": "^1.3.7",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "start": "nodemon server",
+    "test": "jasmine-node spec/ --captureExceptions --autotest --watch */*.js --color --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericpkatz/ce-9053-summer-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericpkatz/ce-9053-summer-7/issues"
+  },
+  "homepage": "https://github.com/ericpkatz/ce-9053-summer-7"
+}

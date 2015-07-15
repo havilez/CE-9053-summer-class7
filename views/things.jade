@@ -1,0 +1,20 @@
+html
+    head
+        link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel="stylesheet")
+        title The My World Home Page
+    body
+        ul.nav.nav-tabs
+            li
+                a(href="/") Home
+            li.active
+                a(href="/things") Things
+            li
+                a(href="/people") People
+                
+        .container 
+            .well Things Page 
+            ul.list-group
+                each thing in things
+                    li.list-group-item
+                        = thing.name
+                        = thing.type
